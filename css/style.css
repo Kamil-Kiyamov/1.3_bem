@@ -357,7 +357,6 @@ label {
 
 @media (min-width: 767px) and (max-width: 1119px) {
     .wrapper__text-first, .wrapper__text-second {
-        width: 312px;
         margin-left: 24px;
     }
     body {
@@ -370,6 +369,10 @@ label {
     .wrapper__read__more {
         position: relative;
         left: 16px;
+    }
+
+    .wrapper {
+        flex-wrap: nowrap;
     }
 }
 
@@ -388,5 +391,3 @@ label {
         background: #fff;
     }
 }
-
-/*asd*/
